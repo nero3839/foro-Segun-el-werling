@@ -1,0 +1,9 @@
+body{
+    background-image: url(/ProyectoSemestral/Imagenes/Fortnite4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color{
+    background-color: rgba(102, 102, 153, 0.5);
+}

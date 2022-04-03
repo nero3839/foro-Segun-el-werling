@@ -1,13 +1,24 @@
 body{
-    background-image: url(/ProyectoSemestral/Imagenes/Fortnite4.jpg);
+    background-image: url(/ProyectoSemestral/Imagenes/Fortnite5.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .color{
-    background-color: rgba(211, 211, 226, 0.5);
+    background-color: rgba(211, 211, 226, 0.2);
 }
 
 .centrado{
     text-align: center;
+}
+
+
+.letras{
+    color: white;
+}
+
+img{
+    float: right;
+    width: 300xp;
+    height: 205px;
 }

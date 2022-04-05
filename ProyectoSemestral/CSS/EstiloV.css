@@ -1,16 +1,16 @@
-body{
+body {
     background-image: url(/ProyectoSemestral/Imagenes/valorant2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.centrado{
-    text-align: center ;
+.centrado {
+    text-align: center;
 
 
 }
 
-.colortexto{
+.colortexto {
 
-color: #000;
+    color: #000;
 }

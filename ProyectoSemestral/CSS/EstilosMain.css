@@ -5,7 +5,7 @@
 body{
     background-image: url(/ProyectoSemestral/Imagenes/Zonagamer.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 300%;
 }
 
 .color{

@@ -1,1 +1,0 @@
-# foro-Segun-el-werling

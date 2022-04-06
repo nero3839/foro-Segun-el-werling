@@ -5,7 +5,9 @@
 body {
     background-image: url(/ProyectoSemestral/Imagenes/Zonagamer.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 300%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .color {
@@ -13,6 +15,9 @@ body {
 }
 
 img {
-    width: 300xp;
-    height: 205px;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 250px;
+    margin: auto;
 }

@@ -1,0 +1,30 @@
+body {
+    background-image: url(/ProyectoSemestral/Imagenes/Fortnite5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+body, html{
+    height: 100%;
+
+}
+
+.color {
+    background-color: rgba(116, 116, 116, 0.6);
+}
+
+.centrado {
+    text-align: center;
+}
+
+
+.letras {
+    color: white;
+}
+
+img {
+    width: 300xp;
+    height: 205px;
+}
+

@@ -1,0 +1,23 @@
+.centrado {
+    text-align: center;
+}
+
+body {
+    background-image: url(/ProyectoSemestral/Imagenes/Zonagamer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.color {
+    background-color: rgba(211, 211, 226, 0.2);
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 250px;
+    margin: auto;
+}

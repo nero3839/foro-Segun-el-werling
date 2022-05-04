@@ -1,0 +1,40 @@
+
+CREATE TABLE comentario (
+    id_comentario      NUMBER NOT NULL,
+    secion_id_usuario  NUMBER NOT NULL,
+    resena_id_resena   unknown 
+--  ERROR Datatype UNKNOWN is not allowed 
+     NOT NULL
+);
+
+ALTER TABLE comentario ADD CONSTRAINT comentario_pk PRIMARY KEY ( id_comentario );
+
+CREATE TABLE resena (
+    id_resena          unknown 
+--  ERROR Datatype UNKNOWN is not allowed 
+     NOT NULL,
+    secion_id_usuario  NUMBER NOT NULL
+);
+
+ALTER TABLE resena ADD CONSTRAINT resena_pk PRIMARY KEY ( id_resena );
+
+CREATE TABLE secion (
+    id_usuario  NUMBER NOT NULL,
+    usuario     VARCHAR2(30) NOT NULL,
+    contrasena  VARCHAR2(30) NOT NULL
+);
+
+ALTER TABLE secion ADD CONSTRAINT secion_pk PRIMARY KEY ( id_usuario );
+
+ALTER TABLE comentario
+    ADD CONSTRAINT comentario_resena_fk FOREIGN KEY ( resena_id_resena )
+        REFERENCES resena ( id_resena );
+
+ALTER TABLE comentario
+    ADD CONSTRAINT comentario_secion_fk FOREIGN KEY ( secion_id_usuario )
+        REFERENCES secion ( id_usuario );
+
+ALTER TABLE resena
+    ADD CONSTRAINT resena_secion_fk FOREIGN KEY ( secion_id_usuario )
+        REFERENCES secion ( id_usuario );
+
